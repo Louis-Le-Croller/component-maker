@@ -1,5 +1,30 @@
 # component-maker
 
+Permet de créer plusieurs composants d'un coup avec le fichier jsx et le scss correspondant. 
+Le jsx sera composé de la base suivante : 
+```js
+import PropTypes from 'prop-types';
+import './ComponentName.scss';
+
+const ComponentName = () => {
+ return <div className="ComponentName">ComponentName</div>
+};
+
+ComponentName.propTypes = {};
+export default ComponentName;
+```
+
+Les fichiers scss : 
+```scss
+@use 'src/styles/variables' as v;
+
+.ComponentName {
+  // Styles for ComponentName
+}
+```
+
+ComponentName représentant le nom que vous fournirez à la création du composant. 
+
 ## Installation 
 Clonez le projet dans un dossier, où vous le souhaitez sur votre machine. 
 
