@@ -3,6 +3,8 @@
 ## Installation 
 Clonez le projet dans un dossier, où vous le souhaitez sur votre machine. 
 
+Ligne 23, remplacez ```js 'your-project-folder'``` par le nom de votre dossier de projet. 
+
 ## Utilisation
 Dans votre terminal, utilisez la commande ```node makeComponent.js``` puis renseignez les composants que vous souhaitez créer en paramètre.
 
